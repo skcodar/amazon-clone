@@ -1,0 +1,489 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: arial;
+}
+body{
+    width: 100%;
+    background-color: #cbd0d2;
+}
+
+.menu {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/*=======================Utility====================*/
+.border-orang{
+    border: 1.5px solid transparent;
+    border-radius: 5px;
+}
+.border-orang:hover {
+    cursor: pointer;
+    border: 1.5px solid orange;
+    border-radius: 5px;
+}
+.border {
+    border: 1.5px solid transparent;
+    border-radius: 5px;
+}
+.line{
+    border-bottom: 1.5px solid transparent;
+}
+.line:hover{
+    border-bottom: 1.5px solid white;
+}
+.border:hover {
+    cursor: pointer;
+    border: 1.5px solid whitesmoke;
+    border-radius: 5px;
+}
+.color{
+    color: rgb(86, 86, 224);
+}
+.color:hover{
+    color: rgb(233, 79, 79);
+}
+.color2{
+    border: 1px solid white;
+}
+.color2:hover{
+    border: 1px solid orange;
+}
+
+/*===================================================*/
+/*================logo-menu===========================*/
+.menu-logo {
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(img/amazon_logo.png);
+}
+
+
+
+/*=================address--menu=============*/
+
+
+.add-menu {
+    padding: 5px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.add-one {
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-left: 21px;
+    margin-top: 7px;
+}
+
+.add-two {
+    font-size: 1rem;
+    margin-left: 4px;
+
+}
+
+.fa-solid {
+    font-size: 20px;
+}
+
+/*==============search-menu==================*/
+
+.search-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    height: 40px;
+    background-color: #0f1111;
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+}
+.search-menu:hover{
+    border: 2px solid orange;
+ 
+}
+
+
+.search-select {
+    outline: none;
+    border: none;
+    width: 50px;
+    background-color: #E6E6E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+
+.search-input {
+    padding-left: 6px;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd6f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+
+/*=================================== Signe menu =========================*/
+.sign-menu {
+    padding: 9px;
+}
+
+.sign-menu span {
+    font-size: 0.8rem;
+}
+
+.menu-second {
+    font-size: 0.9rem;
+    font-weight: 750;
+}
+
+/*=================================== Returns menu =========================*/
+.return-menu {
+    padding: 9px;
+
+}
+
+.return-menu span {
+    font-size: 0.8rem;
+}
+
+.menu-second {
+    font-size: 0.9rem;
+    font-weight: 750;
+
+}
+
+/*================================= Cart ============================*/
+
+.menu-cart {
+    padding: 9px;
+    font-size: 0.9;
+    font-weight: 700;
+}
+
+.menu-cart i {
+    font-size: 30px;
+
+}
+/*=================================== panel =============================*/
+
+
+.panel{
+    width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+}
+/*======================================= panel all========================*/
+.panel-all{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.panel-all p{
+    padding-left: 5px;
+    font-weight: 700;
+}
+/*==================================== panel content====================*/
+.panel-content{
+    width: 70%;
+}
+.panel-content p{
+    font-size: 0.86rem;
+    font-weight: 400;
+    display:inline;
+    padding: 8px;
+}
+/*=============================== panel electronic==========================*/
+.panel-electronic{
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 8px;
+}
+/*======================= Hero section1 =============================*/
+
+
+.hero-sec {
+    width: 100%;
+   
+}
+
+.hero-img {
+    background-image: url(img/oft-toys_with-.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+
+/*======================= Hero section2 =============================*/
+
+.shop-card{
+    margin-top: -100px;
+    width: 97%;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.iner-card{
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    width: 23%;
+}
+.iner-card p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+.image{
+    padding: px;
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: space-evenly;
+   
+}
+.img1{
+   
+    width: 48%;
+   
+}
+.img1 img{
+    padding: 10px;
+    height: 102px;
+    width: 97%;  
+}
+.img1 p{
+    font-weight: 500;
+    font-family: Arial;
+    padding: 2px;
+    font-size: 0.8rem;
+}
+.image .see-prod{
+     font-weight: 500;
+     font-size: 1rem;
+     padding-bottom: 20px;
+    
+}
+.sec2{
+    margin-top: 20px;
+}
+
+/*======================================= footer =========================================*/
+
+.footer-back{
+    width: 100%;
+    
+    background-color: whitesmoke;
+}
+.back-to-top-btn{
+    background-color: #2f3d4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    
+}
+.back-to-top-btn a{
+   
+    padding: 10px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #232F3E;
+    margin-top: 1px;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    display: flex;
+    color: whitesmoke;
+
+}
+.footer-iner h1{
+    color: whitesmoke;
+    font-size: 1rem;
+}
+.footer-iner ul{
+    margin-top: 20px;
+
+}
+.footer-iner ul li{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.footer-iner ul li a{
+    font-size: 0.8rem;
+    color:rgba(255, 255, 255, 0.734);
+    transition: 0.2s;
+}
+/*===========================================================================================*/
+.location-countary{
+    background-color: #232F3E;
+    margin-top: 1px;
+    width: 100%;
+    height: 180px;
+}
+.country-iner{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  
+  
+}
+.country-iner .img {
+    height: 100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+.country-iner .img .contry-logo{
+    width: 150px;
+    height: 70px;
+    background-size: cover;
+    background-image: url(img/amazon_logo.png);
+}
+.country-iner .selecte{
+    width: 130px;
+    height: 33px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.location-countary .country2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+}
+.country-name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+    
+}
+.country-name a{
+    padding:5px 7px 5px 7px  ;
+    display: flex;
+    color: white;
+    font-size: 0.8rem;
+}
+/*================================================ Footer shop ============================*/
+.footer-shop-content{
+    margin-top: 1px;
+    background-color: #0f1111;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer-shop{  
+    width: 86%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-shop-iner{
+    color: white;
+    width: 19.8%; 
+    height: 55px;   
+}
+.footer-shop ul{
+    color: white;
+    margin-left: 20px;
+    
+}
+.footer-shop ul a{
+    transition: 0.2s;
+    color: rgba(255, 255, 255, 0.734);
+    font-size: 0.7rem;
+}
+.footer-shop-iner h1{
+    margin-left:20px ;
+    font-size: 0.8rem;
+}
+/*===================================== footer-auther ================================*/
+.footer-auther{
+    width: 100%;
+    height: 100px;
+    background-color:#0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auther-content{
+    width: 50%;
+    
+}
+.auther-content p{
+    font-size: 0.9rem;
+    color: white;
+}
+.iner-auther{
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.website-info{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
